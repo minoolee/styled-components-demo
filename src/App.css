@@ -6,13 +6,26 @@
 body {
   margin: 0.5rem;
   font-family:sans-serif;
-  text-align: center;
-}
+  text-align: center;}
 /* a {
  color: aquamarine;
   
 } */
-
+.menu{
+  background-color: white;
+  height: 100vh;
+}
+.man{
+  background-color: blue;
+  height: 100vh;
+}
+.cate{
+  background-color: red;
+  height: 100vh;
+}
+h2 {
+  padding-top: 150px;
+}
 /* .App {
   text-align: center;
 }

@@ -1,13 +1,19 @@
 
 import './App.css';
-import { Navbar } from './components/Navbar/Navbar';
+import { Menu } from './components/Menu/Menu';
+import { Men } from './components/Men';
+import { Header } from './components/Header/Header';
+import { Women } from './components/Women';
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Navbar />
+        <Header />
+      <Menu />
+      <Men />
+      <Women />
       </header>
     </div>
   );

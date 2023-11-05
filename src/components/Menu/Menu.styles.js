@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 
-export const NavbarStyled = styled.nav`
+export const MenuStyled = styled.menu`
 border: 2px solid #333;
   border-radius: 2rem;
   margin: 0 auto 1rem;
@@ -10,16 +10,16 @@ border: 2px solid #333;
   line-height: 7rem;
 `
 
-export const NavH2 = styled.h2`
+export const MenuH2 = styled.h2`
 padding: 1rem;
 background-color: forestgreen;
 border-radius: 2rem 2rem 0 0;
 `
 
-export const NavUl = styled.ul`
+export const MenuUl = styled.ul`
 list-style-type: none;
 `
-export const NavList = styled.li`
+export const MenuList = styled.li`
 a{
   display: block;
 }
@@ -28,13 +28,13 @@ a{
 }
 border-top: 1px solid #333;
 `
-export const NavLink = styled.a`
+export const MenuLink = styled.a`
 text-decoration: none;
  color: #333;
  &:visited {
   color: red;
  }
- &: hover, focus {
+ &:hover, focus {
   background: #333;
   color: whitesmoke;
   cursor: pointer;
